@@ -31,6 +31,4 @@ public class CORSFilter implements Filter {
 
         chain.doFilter(request, response);
     }
-
-    // Other methods from the Filter interface (init, destroy) can be left empty or implemented as needed.
 }
